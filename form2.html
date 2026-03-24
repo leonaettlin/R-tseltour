@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schnitzeljagd</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body class="w3-light-grey">
+    <!-- Hauptinhalt -->
+    <div class="w3-container w3-white w3-margin-top w3-padding-16 w3-card-4">
+        <h2 class="w3-center">Weiter gehts</h2>
+        <p class="w3-center">Hier kommt das nächste Rätsel</p>
+        
+        <form class="w3-container w3-margin-top" action="form2.html" method="get">
+            <label class="w3-text-blue" for="eingabefeld">Die konkrete Frage wiederholt</label>
+            <input class="w3-input w3-border" type="text" id="eingabefeld" name="eingabefeld" pattern="0.14" title="Wenn etwas falsch eingegeben wurde" required placeholder="placeholder">
+            <div class="w3-row">
+                <div class="w3-col s6">
+                    <button class="w3-button w3-blue w3-margin-top" type="submit">Weiter</button>
+                </div>
+                <div class="w3-col s6">
+                    <a onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-light-grey w3-margin-top">Tipp öffnen</a>
+                </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<!--Modal Window-->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-blue"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Tipp</h2>
+      </header>
+      <div class="w3-container">
+        <p>Welchen Tipp wollen Sie weitergeben?</p>
+      </div>
+      <footer class="w3-container w3-blue">
+        <p></p>
+      </footer>
+    </div>
+  </div>
+<!-- Footer -->
+<footer class="w3-container w3-blue w3-center w3-padding-16 w3-margin-top">
+    <p>Philippe Zuber &copy; 2024</p>
+</footer>
+</html>
