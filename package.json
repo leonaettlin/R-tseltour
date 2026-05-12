@@ -1,0 +1,24 @@
+{
+  "name": "raetseltour-bbzw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonaettlin/Raetseltour-BBZW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/leonaettlin/Raetseltour-BBZW/issues"
+  },
+  "homepage": "https://github.com/leonaettlin/Raetseltour-BBZW#readme",
+  "dependencies": {
+    "puppeteer": "^24.43.1"
+  }
+}
